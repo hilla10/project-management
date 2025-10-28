@@ -1,8 +1,7 @@
----
 
-```markdown
-<h1><img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
-  🎯 project-management 🚀</h1>
+<h1>
+  <img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
+   project-management 🚀</h1>
   <p>
 
 
@@ -104,7 +103,7 @@ project-management/
 ├── prisma/            # Prisma schema & migrations
 ├── .env               # Environment variables
 └── README.md
-
+```
 ## 🤝 Contributing <a name="-contributing"></a>
 
 Contributions are welcome and greatly appreciated 💙
@@ -112,7 +111,7 @@ Contributions are welcome and greatly appreciated 💙
 1, Fork the repository
 
 2, Create a new branch:
-``bash
+```bash
 git checkout -b feature/YourFeature
 ```
 
