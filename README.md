@@ -103,7 +103,7 @@ project-management/
 ├── prisma/            # Prisma schema & migrations
 ├── .env               # Environment variables
 └── README.md
-
+```
 ## 🤝 Contributing <a name="-contributing"></a>
 
 Contributions are welcome and greatly appreciated 💙
@@ -111,7 +111,7 @@ Contributions are welcome and greatly appreciated 💙
 1, Fork the repository
 
 2, Create a new branch:
-``bash
+```bash
 git checkout -b feature/YourFeature
 ```
 
