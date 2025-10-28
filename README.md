@@ -1,8 +1,7 @@
----
 
-```markdown
-<h1><img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
-  🎯 project-management 🚀</h1>
+<h1>
+  <img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
+   project-management 🚀</h1>
   <p>
 
 
