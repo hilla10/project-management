@@ -6,6 +6,7 @@ import { serve } from 'inngest/express';
 import { functions, inngest } from './inngest/index.js';
 import workspaceRouter from './routes/workspaceRoutes.js';
 import { protect } from './middlewares/auth.js';
+import projectRouter from './routes/projectRoutes.js';
 
 const app = express();
 
@@ -19,6 +20,7 @@ app.get('/', (req, res) => res.send('Api is Working.'));
 
 app.use('/api/inngest', serve({ client: inngest, functions }));
 app.use('/api/workspaces', protect, workspaceRouter);
+app.use('/api/projects', protect, projectRouter);
 
 const PORT = process.env.PORT || 3000;
 
