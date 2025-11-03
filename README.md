@@ -28,7 +28,25 @@
 **project-management 🚀** is a **modern open-source project management platform** crafted for teams.  
 Manage **workspaces, tasks, analytics, and users** in one streamlined dashboard.
 
-🔗 **Live Demo:** [https://your-demo-link.com](https://your-demo-link.com)
+🔗 **Live Demo:** [Project Managment](https://project-management-oyk2.vercel.app/)
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 20px; background-color: #f8f9fa;">
+  <img src="./frontend/public/images/1.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/2.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/3.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/4.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/5.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/6.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/7.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/8.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/9.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/10.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/11.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/12.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/13.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/14.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
+  <img src="./frontend/public/images/15.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transfo
+
 
 ---
 
