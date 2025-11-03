@@ -47,7 +47,7 @@ Manage **workspaces, tasks, analytics, and users** in one streamlined dashboard.
   <img src="./frontend/public/images/14.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transform 0.3s; cursor: pointer;" />
   <img src="./frontend/public/images/15.png" style="width: 300px; height: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: transfo
 
-
+</div>
 ---
 
 ## 📖 Table of Contents
