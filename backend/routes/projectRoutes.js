@@ -9,6 +9,6 @@ const projectRouter = Router();
 
 projectRouter.post('/', createProject);
 projectRouter.put('/', updateProject);
-projectRouter.post('/:projectId/addMember', addMemberProject);
+projectRouter.post('/:projectId/add-member', addMemberProject);
 
 export default projectRouter;

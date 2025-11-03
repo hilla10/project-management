@@ -72,7 +72,7 @@ export const createProject = async (req, res) => {
       await prisma.projectMember.createMany({
         data: membersToAdd.map((memberId) => ({
           projectId: project.id,
-          useId: memberId,
+          userId: memberId,
         })),
       });
     }
@@ -126,9 +126,7 @@ export const updateProject = async (req, res) => {
     }
 
     if (
-      !workspace.members.some(
-        (m) => m.userId === userId && member.role === 'ADMIN'
-      )
+      !workspace.members.some((m) => m.userId === userId && m.role === 'ADMIN')
     ) {
       const project = await prisma.project.findUnique({
         where: { id },
@@ -139,7 +137,7 @@ export const updateProject = async (req, res) => {
       } else if (project.team_lead !== userId) {
         return res.status(403).json({
           message:
-            "You don't have permissoion to update projects in this workspace",
+            "You don't have permission to update projects in this workspace",
         });
       }
     }
@@ -173,7 +171,7 @@ export const addMemberProject = async (req, res) => {
     const { email } = req.body;
 
     // check if user is project lead
-    const project = prisma.project.findUnique({
+    const project = await prisma.project.findUnique({
       where: { id: projectId },
       include: { members: { include: { user: true } } },
     });
@@ -184,13 +182,13 @@ export const addMemberProject = async (req, res) => {
 
     if (project.team_lead !== userId) {
       return res
-        .status(404)
+        .status(403)
         .json({ message: 'Only project lead can add members' });
     }
 
     // check if user is already a member
     const existingMember = project.members.find(
-      (member) => (member.email = email)
+      (member) => member.email === email
     );
 
     if (existingMember) {

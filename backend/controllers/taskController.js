@@ -14,7 +14,7 @@ export const createTask = async (req, res) => {
       priority,
       assigneeId,
       due_date,
-    } = req.bod;
+    } = req.body;
 
     const origin = req.get('origin');
 
@@ -47,6 +47,7 @@ export const createTask = async (req, res) => {
         priority,
         assigneeId,
         status,
+        type,
         due_date: new Date(due_date),
       },
     });
